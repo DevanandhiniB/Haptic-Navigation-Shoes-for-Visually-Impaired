@@ -1,0 +1,40 @@
+# Haptic Navigation Shoes for the Visually Impaired
+
+This is my mini project for helping blind people walk safely using sensors and vibration motors inside shoes.
+
+## 👟 What It Does
+
+- Detects obstacles (ultrasonic)
+- Detects pits and stairs (LiDAR + MPU6050)
+- Detects water (water level sensor)
+- Detects fast-moving objects (radar)
+- Alerts user with vibration and buzzer
+- Emergency SMS/call using GSM
+
+## ⚙️ Components Used
+
+- Arduino Nano / Uno
+- Ultrasonic sensor
+- LiDAR sensor
+- MPU6050
+- Radar sensor
+- Vibration motors
+- Buzzer
+- SIM900A GSM module
+- Water level sensor
+- Piezoelectric plates (for charging)
+
+## 📢 Alerts
+
+Each sensor gives vibration in different patterns. Buzzer helps in emergencies. Push button sends SMS using GSM.
+
+## 💡 Future Plans
+
+- Add GPS tracking
+- Add mobile app
+- Solar power option
+
+---
+
+👩‍💻 Made by **Devanandhini B**  
+Final Year ECE | SJCET Palai, Kerala
